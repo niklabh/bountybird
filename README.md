@@ -1,3 +1,18 @@
+# Bountybird
+
+BountyBird is a new paradigm in social-fi, changing the way you engage with your community.
+Your social graph is now your bounty hunting ground.🧵
+
+Creating bounties is a breeze with Bounty Bird! Whether on Twitter(X) or Lens or Farcaster, just tag @thebountybird
+, set your task, and watch your network turn into a dynamic bounty hunting field.
+
+Want an Introduction to someone or a complex bug you can't seem to resolve ? Post it out and offer anything ranging from a Coffee☕️to 1000 USDC💰 or even your beloved NFTs🖼️.
+
+We are proudly Built on @LensProtocol to ensure ownership of your data, connections and posts and allowing you to leverage the most native web3 community in web3. We currently support http://hey.xyz and support for other lens apps will be added soon.
+
+Discover tasks and expand your portfolio by hunting some bounties. Simply reply on your platform of choice with #submitbounty and earn rewards. From content creation to bug hunting, there's a bounty for every talent! 🎨
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
