@@ -1,0 +1,19 @@
+// src/components/ShareCTA/TweetButton.tsx
+// ...
+ 
+export const TWITTER_INTENT_URL = 'https://twitter.com/intent/tweet'
+const TWITTER_HANDLE = 'thebountybird'
+ 
+export const getTwitterHref = ({url, title, tags}: {url: string, title: string, tags: string[]}) => {
+	const shareUrl = new URL(TWITTER_INTENT_URL)
+	const search = new URLSearchParams({
+		url,
+		text: title,
+		hashtags: tags.join(','),
+		via: TWITTER_HANDLE,
+	}).toString()
+ 
+	shareUrl.search = search
+ 
+	return shareUrl.href
+}
