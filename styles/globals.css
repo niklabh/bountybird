@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+  --darkBlue: #232946;
+  --purple: #2f45c6;
+  --secondary: #2f4564;
+  --accent: #fffffe;
+  --fadedBlue: rgba(87, 140, 240, 0.36);
+  --fadedBrown: rgba(255, 76, 108, 0.17);
+  --lightGreen: #a3e440;
+  --orangeRed: #ff4b00;
+  --profile-header-gradient: linear-gradient(
+    91deg,
+    #091434 0%,
+    #3059b5 61.12%,
+    #232a39 103.05%
+  );
+  --font_poppins: 'Poppins', sans-serif;
+}
+
+body {
+  color: var(--accent);
+  background-color: #000;
+  /* background-image: url("/assets/bg-graphics.svg"); */
+  background-size: 100%;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue-Light';
+  src: url('/fonts/HelveticaNeue/HelveticaNeueLight.ttf') format('truetype');
+ }
+
+
+@font-face {
+  font-family: 'HelveticaNeue-Medium';
+  src: url('/fonts/HelveticaNeue/HelveticaNeueMedium.ttf') format('truetype');
+ }
+
+@font-face {
+  font-family: 'HelveticaNeue-Bold';
+  src: url('/fonts/HelveticaNeue/HelveticaNeueBold.ttf') format('truetype');
+ }
+
+
+
+ .font-poppins { 
+   font-family: 'Poppins', sans-serif;
+ }
+
+.font-helvetica-light { 
+  font-family: 'HelveticaNeue-Light', sans-serif;
+}
+.font-helvetica-md {  
+  font-family: 'HelveticaNeue-Medium', sans-serif;
+}
+.font-helvetica-bold { 
+  font-family: 'HelveticaNeue-Bold', sans-serif;
+}
