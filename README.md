@@ -12,8 +12,11 @@ We are proudly Built on @LensProtocol to ensure ownership of your data, connecti
 
 Discover tasks and expand your portfolio by hunting some bounties. Simply reply on your platform of choice with #submitbounty and earn rewards. From content creation to bug hunting, there's a bounty for every talent! 🎨
 
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# Deployment
+
+Bountybird is deployed at https://www.bountybird.xyz/. Bountybird is reading posts from social media to scan for bounties. It is currently reading from Twitter and Lens and Farcaster.
 
 ## Getting Started
 
